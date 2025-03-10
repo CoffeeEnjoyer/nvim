@@ -25,7 +25,6 @@ return require('packer').startup(function(use)
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
-    use ('github/copilot.vim')
     use({
         'mvllow/modes.nvim',
         tag = 'v0.2.0',
@@ -34,5 +33,8 @@ return require('packer').startup(function(use)
         end
     })
     use ("lukas-reineke/indent-blankline.nvim")
+    use ("sbdchd/neoformat")
+    use ("github/copilot.vim")
+    use ("CopilotC-Nvim/CopilotChat.nvim")
 end)
 
